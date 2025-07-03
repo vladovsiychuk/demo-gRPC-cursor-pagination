@@ -1,5 +1,5 @@
 # Overview
-This repository demonstrates a discovery-service for a social media platform, designed to handle and paginate user posts. In this system, the post-service sends new posts asynchronously via gRPC to the discovery-service, which maintains all posts in sorted order. Clients can then fetch a paginated feed of posts from the discovery-service using cursor-based pagination. This project focuses on showcasing the implementation and features of the discovery-service.
+This repository demonstrates a `discovery-service` for a social media platform, designed to handle and paginate user posts. In this system, the `post-service` sends new posts asynchronously via gRPC to the `discovery-service`, which maintains all posts in **sorted order**. Clients can then fetch a **paginated** feed of posts from the `discovery-service` using **cursor-based pagination**. This project focuses on showcasing the implementation and features of the discovery-service.
 
 ![Architecture Diagram](architecture.excalidraw.svg)
 
