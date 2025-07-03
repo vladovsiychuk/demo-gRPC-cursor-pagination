@@ -28,7 +28,6 @@ This repository demonstrates a discovery-service for a social media platform, de
 
 ### Prerequisites
 - Go 1.19+
-- `protoc` (Protocol Buffers compiler)
 - `buf` (for proto code generation)
 
 ### Install Dependencies
@@ -38,23 +37,12 @@ go mod tidy
 
 ### Generate Protobuf Code
 ```bash
-cd protodef
-buf generate
-```
-
-### Build
-```bash
-make build
+make protogen
 ```
 
 ### Run
 ```bash
-make run
-```
-
-### Test
-```bash
-make test
+make start
 ```
 
 ## Development Notes
